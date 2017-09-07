@@ -1,0 +1,3 @@
+Selecting the ideal number of PC axes...
+
+Since geometric morphometric coordinates are often highly correlated (Bookstein, 1991; Dryden and Mardia, 1998) and therefore redundant, as four degrees of freedom are lost in Generalised Procrustes Analysis (GPA) when using two-dimensional data, we reduced the number of variables used here for multivariate analyses according to method employed in Cardini et al. (2007). We selected the number of principal components of shape by choosing that point located in the most central region of the curve formed in the correlation plots before approaching 100% of explanation. 
