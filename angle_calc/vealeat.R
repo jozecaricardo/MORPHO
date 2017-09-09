@@ -1,5 +1,6 @@
 #Randomizing vectors based on a beta distribution
 vetores<-function(ve){
+  install.packages('zipfR')
   library('zipfR')
   na<-length(ve)
   u<-rbeta(na,(na-1)/2,1/2) #gerando "u" de uma distribuição beta com parâmetros (n-1)/2 e 1/2
