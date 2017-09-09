@@ -2,6 +2,8 @@
 calcang<-function(dado,num){ #dado=matriz ou data.frame, num=réplicas
   source("~/Dropbox/papers/fabiano/bifoveolatum/angu.R")
   source("~/Dropbox/papers/fabiano/bifoveolatum/vealeat.R")
+  install.packages('zipfR')
+  library('zipfR')
   install.packages('ppls')
   library('ppls')
   PC12.rad<-angulo(as.vector(dado[,1]),as.vector(dado[,2]))
